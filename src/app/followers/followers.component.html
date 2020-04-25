@@ -1,0 +1,13 @@
+
+<h1>My Followers</h1>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let follower of followers">
+        <div class="media">
+            <img class="mr-3" src="{{follower.avatar_url}}" alt="Photo of the follower">
+            <div class="media-body">
+              <h5 class="mt-0">{{follower.login}}</h5>
+              <a [routerLink]="['/followers',follower.id, follower.login]">{{follower.html_url}}</a>
+            </div>
+          </div>
+    </li>
+</ul>

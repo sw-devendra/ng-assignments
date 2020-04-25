@@ -1,0 +1,10 @@
+<div class="wholeDiv" >
+    <div class="heading" (click)="expanded = !expanded" [class.expanded]="expanded">
+        <div class="titleText">{{title}}</div>
+        <div class="zipButton" *ngIf='expanded'>&#8648;</div>
+        <div class="zipButton" *ngIf='!expanded'>&#8650;</div>
+    </div>
+    <div class="body" *ngIf='expanded'>
+        <ng-content></ng-content>
+    </div>
+</div>

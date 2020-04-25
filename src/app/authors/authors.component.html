@@ -1,0 +1,10 @@
+<!-- <button class="btn btn-primary" [class.active]="isActive" (click)="showCourses()"> {{authors.length + " Authors"}}</button>
+<ul>
+    <li *ngFor="let author of authors">
+        {{author}}
+    </li>
+</ul> -->
+
+
+<input [(ngModel)]="email" (keyup.enter)="emailEntered()" />
+<h2>{{email | title}}</h2>

@@ -1,0 +1,20 @@
+span.likeIcon {
+    color:#cccccc;
+    font-size: 30px;
+}
+
+span.likeIcon.selected {
+    color:deeppink;
+}
+
+div.likesIconDiv {
+    display: inline;
+    cursor: pointer;
+}
+div.likesCountDiv {
+    display: inline;
+}
+
+span.likesCount {
+    padding-bottom: 5px;
+}

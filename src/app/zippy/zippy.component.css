@@ -1,0 +1,36 @@
+
+div.wholeDiv {
+    width:800px;
+    border-radius: 5px;
+    border-color: darkgray;
+    border-style:solid;
+}
+
+
+div.heading {
+    background-color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+div.titleText {
+    width: 780px;
+    display: table-cell;
+    font-weight: bold;
+}
+
+
+div.heading.expanded {
+    background-color:#EEEEEE;
+}
+
+div.zipButton {
+    display: table-cell;
+    font-weight: bold;
+    width: 10px;
+}
+
+div.body {
+    background-color: white;
+    padding:20px;
+}

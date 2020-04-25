@@ -1,0 +1,9 @@
+img.mr-3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.list-group-item {
+    border:none;
+}

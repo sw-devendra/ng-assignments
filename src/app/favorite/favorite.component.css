@@ -1,0 +1,11 @@
+.favorite.selected{
+    background:url("../../assets/img/star-solid.png") no-repeat center;
+    width: 60px;
+    height: 60px;
+}
+
+.favorite{
+    background:url("../../assets/img/star-empty.png") no-repeat center;
+    width: 60px;
+    height: 60px;
+}
