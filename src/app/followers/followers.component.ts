@@ -22,6 +22,5 @@ export class FollowersComponent implements OnInit {
         console.log(combined)
         this.service.getFollowers().subscribe(followers => this.followers = followers)
       })
-    
   }
 }
